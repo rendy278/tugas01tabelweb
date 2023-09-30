@@ -1,0 +1,53 @@
+body{
+  background: #2894ff;
+}
+.container{
+  margin-top: 8vh;
+}
+.container ul{
+  list-style: decimal;
+}
+.biodata ul{
+  margin: auto;
+  list-style: none;
+  font-size: 1.4vw;
+  color: white;
+  margin-top: 10px;
+}
+.titel {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3vw;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.5rem;
+  color: #384449;
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+h1{
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+}
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+h1:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #ff0266;
+)
